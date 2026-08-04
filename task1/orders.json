@@ -1,0 +1,702 @@
+[
+  {
+    "order_id": "ORD-1001",
+    "created_at": "2026-03-14T14:20:00+03:30",
+    "destination_city": "تهران",
+    "city_tier": "tehran",
+    "membership": "regular",
+    "payment_method": "online",
+    "items": [
+      {
+        "item_id": "IT-001",
+        "seller_id": "SL-1",
+        "category": "books",
+        "is_bulky": false,
+        "weight_grams": 800,
+        "unit_price": 200000,
+        "quantity": 1,
+        "discount": 0
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1002",
+    "created_at": "2026-03-14T14:20:00+03:30",
+    "destination_city": "شیراز",
+    "city_tier": "provincial_capital",
+    "membership": "regular",
+    "payment_method": "online",
+    "items": [
+      {
+        "item_id": "IT-002",
+        "seller_id": "SL-1",
+        "category": "books",
+        "is_bulky": false,
+        "weight_grams": 400,
+        "unit_price": 90000,
+        "quantity": 1,
+        "discount": 0
+      },
+      {
+        "item_id": "IT-003",
+        "seller_id": "SL-2",
+        "category": "beauty",
+        "is_bulky": false,
+        "weight_grams": 300,
+        "unit_price": 120000,
+        "quantity": 1,
+        "discount": 0
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1027",
+    "created_at": "2026-03-14T14:20:00+03:30",
+    "destination_city": "تبریز",
+    "city_tier": "provincial_capital",
+    "membership": "regular",
+    "payment_method": "online",
+    "items": [
+      {
+        "item_id": "IT-040",
+        "seller_id": "SL-4",
+        "category": "toys",
+        "is_bulky": false,
+        "weight_grams": 950,
+        "unit_price": 180000,
+        "quantity": 1,
+        "discount": 0
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1003",
+    "created_at": "2026-03-14T14:20:00+03:30",
+    "destination_city": "تهران",
+    "city_tier": "tehran",
+    "membership": "regular",
+    "payment_method": "online",
+    "items": [
+      {
+        "item_id": "IT-004",
+        "seller_id": "SL-1",
+        "category": "kitchen",
+        "is_bulky": false,
+        "weight_grams": 1200,
+        "unit_price": 150000,
+        "quantity": 1,
+        "discount": 0
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1004",
+    "created_at": "2026-03-14T14:20:00+03:30",
+    "destination_city": "تهران",
+    "city_tier": "tehran",
+    "membership": "regular",
+    "payment_method": "online",
+    "items": [
+      {
+        "item_id": "IT-005",
+        "seller_id": "SL-1",
+        "category": "kitchen",
+        "is_bulky": false,
+        "weight_grams": 2000,
+        "unit_price": 150000,
+        "quantity": 1,
+        "discount": 0
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1025",
+    "created_at": "2026-03-14T14:20:00+03:30",
+    "destination_city": "تهران",
+    "city_tier": "tehran",
+    "membership": "regular",
+    "payment_method": "online",
+    "items": [
+      {
+        "item_id": "IT-006",
+        "seller_id": "SL-1",
+        "category": "kitchen",
+        "is_bulky": false,
+        "weight_grams": 1000,
+        "unit_price": 150000,
+        "quantity": 1,
+        "discount": 0
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1005",
+    "created_at": "2026-03-14T14:20:00+03:30",
+    "destination_city": "بندرعباس",
+    "city_tier": "provincial_capital",
+    "membership": "regular",
+    "payment_method": "online",
+    "items": [
+      {
+        "item_id": "IT-007",
+        "seller_id": "SL-2",
+        "category": "grocery",
+        "is_bulky": false,
+        "weight_grams": 700,
+        "unit_price": 60000,
+        "quantity": 3,
+        "discount": 0
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1006",
+    "created_at": "2026-03-14T14:20:00+03:30",
+    "destination_city": "تهران",
+    "city_tier": "tehran",
+    "membership": "regular",
+    "payment_method": "online",
+    "items": [
+      {
+        "item_id": "IT-008",
+        "seller_id": "SL-1",
+        "category": "electronics",
+        "is_bulky": false,
+        "weight_grams": 600,
+        "unit_price": 520000,
+        "quantity": 1,
+        "discount": 40000
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1028",
+    "created_at": "2026-03-14T14:20:00+03:30",
+    "destination_city": "رشت",
+    "city_tier": "provincial_capital",
+    "membership": "regular",
+    "payment_method": "online",
+    "items": [
+      {
+        "item_id": "IT-009",
+        "seller_id": "SL-3",
+        "category": "electronics",
+        "is_bulky": false,
+        "weight_grams": 900,
+        "unit_price": 300000,
+        "quantity": 2,
+        "discount": 120000
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1007",
+    "created_at": "2026-03-14T14:20:00+03:30",
+    "destination_city": "یزد",
+    "city_tier": "provincial_capital",
+    "membership": "regular",
+    "payment_method": "online",
+    "items": [
+      {
+        "item_id": "IT-010",
+        "seller_id": "SL-1",
+        "category": "apparel",
+        "is_bulky": false,
+        "weight_grams": 700,
+        "unit_price": 300000,
+        "quantity": 1,
+        "discount": 0
+      },
+      {
+        "item_id": "IT-011",
+        "seller_id": "SL-2",
+        "category": "apparel",
+        "is_bulky": false,
+        "weight_grams": 700,
+        "unit_price": 300000,
+        "quantity": 1,
+        "discount": 0
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1008",
+    "created_at": "2026-03-14T14:20:00+03:30",
+    "destination_city": "تهران",
+    "city_tier": "tehran",
+    "membership": "plus",
+    "payment_method": "online",
+    "items": [
+      {
+        "item_id": "IT-012",
+        "seller_id": "SL-5",
+        "category": "appliance",
+        "is_bulky": true,
+        "weight_grams": 45000,
+        "unit_price": 18000000,
+        "quantity": 1,
+        "discount": 0
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1009",
+    "created_at": "2026-03-14T14:20:00+03:30",
+    "destination_city": "اصفهان",
+    "city_tier": "provincial_capital",
+    "membership": "regular",
+    "payment_method": "online",
+    "items": [
+      {
+        "item_id": "IT-013",
+        "seller_id": "SL-5",
+        "category": "appliance",
+        "is_bulky": true,
+        "weight_grams": 38000,
+        "unit_price": 620000,
+        "quantity": 1,
+        "discount": 0
+      },
+      {
+        "item_id": "IT-014",
+        "seller_id": "SL-5",
+        "category": "books",
+        "is_bulky": false,
+        "weight_grams": 500,
+        "unit_price": 80000,
+        "quantity": 1,
+        "discount": 0
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1010",
+    "created_at": "2026-03-14T14:20:00+03:30",
+    "destination_city": "کرمان",
+    "city_tier": "provincial_capital",
+    "membership": "regular",
+    "payment_method": "online",
+    "items": [
+      {
+        "item_id": "IT-015",
+        "seller_id": "SL-5",
+        "category": "appliance",
+        "is_bulky": true,
+        "weight_grams": 40000,
+        "unit_price": 250000,
+        "quantity": 1,
+        "discount": 0
+      },
+      {
+        "item_id": "IT-016",
+        "seller_id": "SL-5",
+        "category": "kitchen",
+        "is_bulky": false,
+        "weight_grams": 2600,
+        "unit_price": 90000,
+        "quantity": 1,
+        "discount": 0
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1020",
+    "created_at": "2026-03-14T14:20:00+03:30",
+    "destination_city": "زاهدان",
+    "city_tier": "other",
+    "membership": "regular",
+    "payment_method": "online",
+    "items": [
+      {
+        "item_id": "IT-017",
+        "seller_id": "SL-5",
+        "category": "appliance",
+        "is_bulky": true,
+        "weight_grams": 30000,
+        "unit_price": 400000,
+        "quantity": 1,
+        "discount": 0
+      },
+      {
+        "item_id": "IT-018",
+        "seller_id": "SL-5",
+        "category": "appliance",
+        "is_bulky": true,
+        "weight_grams": 26000,
+        "unit_price": 380000,
+        "quantity": 1,
+        "discount": 0
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1026",
+    "created_at": "2026-03-14T14:20:00+03:30",
+    "destination_city": "مشهد",
+    "city_tier": "provincial_capital",
+    "membership": "regular",
+    "payment_method": "online",
+    "items": [
+      {
+        "item_id": "IT-019",
+        "seller_id": "SL-1",
+        "category": "books",
+        "is_bulky": false,
+        "weight_grams": 300,
+        "unit_price": 150000,
+        "quantity": 1,
+        "discount": 0
+      },
+      {
+        "item_id": "IT-020",
+        "seller_id": "SL-2",
+        "category": "apparel",
+        "is_bulky": false,
+        "weight_grams": 1800,
+        "unit_price": 200000,
+        "quantity": 1,
+        "discount": 0
+      },
+      {
+        "item_id": "IT-021",
+        "seller_id": "SL-5",
+        "category": "appliance",
+        "is_bulky": true,
+        "weight_grams": 31000,
+        "unit_price": 350000,
+        "quantity": 1,
+        "discount": 0
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1011",
+    "created_at": "2026-03-14T23:40:00+03:30",
+    "destination_city": "تهران",
+    "city_tier": "tehran",
+    "membership": "regular",
+    "payment_method": "online",
+    "items": [
+      {
+        "item_id": "IT-022",
+        "seller_id": "SL-1",
+        "category": "books",
+        "is_bulky": false,
+        "weight_grams": 600,
+        "unit_price": 120000,
+        "quantity": 1,
+        "discount": 0
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1012",
+    "created_at": "2026-03-14T06:00:00+03:30",
+    "destination_city": "تهران",
+    "city_tier": "tehran",
+    "membership": "regular",
+    "payment_method": "online",
+    "items": [
+      {
+        "item_id": "IT-023",
+        "seller_id": "SL-1",
+        "category": "books",
+        "is_bulky": false,
+        "weight_grams": 600,
+        "unit_price": 120000,
+        "quantity": 1,
+        "discount": 0
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1013",
+    "created_at": "2026-03-14T23:00:00+00:00",
+    "destination_city": "تهران",
+    "city_tier": "tehran",
+    "membership": "regular",
+    "payment_method": "online",
+    "items": [
+      {
+        "item_id": "IT-024",
+        "seller_id": "SL-1",
+        "category": "books",
+        "is_bulky": false,
+        "weight_grams": 600,
+        "unit_price": 120000,
+        "quantity": 1,
+        "discount": 0
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1014",
+    "created_at": "2026-03-14T23:40:00+03:30",
+    "destination_city": "بابل",
+    "city_tier": "other",
+    "membership": "plus",
+    "payment_method": "online",
+    "items": [
+      {
+        "item_id": "IT-025",
+        "seller_id": "SL-1",
+        "category": "books",
+        "is_bulky": false,
+        "weight_grams": 600,
+        "unit_price": 120000,
+        "quantity": 1,
+        "discount": 0
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1015",
+    "created_at": "2026-03-14T14:20:00+03:30",
+    "destination_city": "تهران",
+    "city_tier": "tehran",
+    "membership": "plus",
+    "payment_method": "cash_on_delivery",
+    "items": [
+      {
+        "item_id": "IT-026",
+        "seller_id": "SL-1",
+        "category": "books",
+        "is_bulky": false,
+        "weight_grams": 500,
+        "unit_price": 90000,
+        "quantity": 1,
+        "discount": 0
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1016",
+    "created_at": "2026-03-14T14:20:00+03:30",
+    "destination_city": "سنندج",
+    "city_tier": "provincial_capital",
+    "membership": "regular",
+    "payment_method": "cash_on_delivery",
+    "items": [
+      {
+        "item_id": "IT-027",
+        "seller_id": "SL-1",
+        "category": "books",
+        "is_bulky": false,
+        "weight_grams": 400,
+        "unit_price": 70000,
+        "quantity": 1,
+        "discount": 0
+      },
+      {
+        "item_id": "IT-028",
+        "seller_id": "SL-2",
+        "category": "beauty",
+        "is_bulky": false,
+        "weight_grams": 400,
+        "unit_price": 70000,
+        "quantity": 1,
+        "discount": 0
+      },
+      {
+        "item_id": "IT-029",
+        "seller_id": "SL-3",
+        "category": "toys",
+        "is_bulky": false,
+        "weight_grams": 400,
+        "unit_price": 70000,
+        "quantity": 1,
+        "discount": 0
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1017",
+    "created_at": "2026-03-14T14:20:00+03:30",
+    "destination_city": "خاش",
+    "city_tier": "other",
+    "membership": "regular",
+    "payment_method": "online",
+    "items": [
+      {
+        "item_id": "IT-030",
+        "seller_id": "SL-1",
+        "category": "kitchen",
+        "is_bulky": false,
+        "weight_grams": 3500,
+        "unit_price": 90000,
+        "quantity": 1,
+        "discount": 0
+      },
+      {
+        "item_id": "IT-031",
+        "seller_id": "SL-2",
+        "category": "kitchen",
+        "is_bulky": false,
+        "weight_grams": 3500,
+        "unit_price": 90000,
+        "quantity": 1,
+        "discount": 0
+      },
+      {
+        "item_id": "IT-032",
+        "seller_id": "SL-3",
+        "category": "kitchen",
+        "is_bulky": false,
+        "weight_grams": 3500,
+        "unit_price": 90000,
+        "quantity": 1,
+        "discount": 0
+      },
+      {
+        "item_id": "IT-033",
+        "seller_id": "SL-4",
+        "category": "kitchen",
+        "is_bulky": false,
+        "weight_grams": 3500,
+        "unit_price": 90000,
+        "quantity": 1,
+        "discount": 0
+      },
+      {
+        "item_id": "IT-034",
+        "seller_id": "SL-6",
+        "category": "kitchen",
+        "is_bulky": false,
+        "weight_grams": 3500,
+        "unit_price": 90000,
+        "quantity": 1,
+        "discount": 0
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1018",
+    "created_at": "2026-03-14T23:40:00+03:30",
+    "destination_city": "طبس",
+    "city_tier": "other",
+    "membership": "regular",
+    "payment_method": "online",
+    "items": [
+      {
+        "item_id": "IT-035",
+        "seller_id": "SL-1",
+        "category": "kitchen",
+        "is_bulky": false,
+        "weight_grams": 9000,
+        "unit_price": 120000,
+        "quantity": 1,
+        "discount": 0
+      },
+      {
+        "item_id": "IT-036",
+        "seller_id": "SL-2",
+        "category": "kitchen",
+        "is_bulky": false,
+        "weight_grams": 8500,
+        "unit_price": 120000,
+        "quantity": 1,
+        "discount": 0
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1019",
+    "created_at": "2026-03-14T14:20:00+03:30",
+    "destination_city": "ایرانشهر",
+    "city_tier": "other",
+    "membership": "regular",
+    "payment_method": "cash_on_delivery",
+    "items": [
+      {
+        "item_id": "IT-037",
+        "seller_id": "SL-1",
+        "category": "kitchen",
+        "is_bulky": false,
+        "weight_grams": 9500,
+        "unit_price": 120000,
+        "quantity": 1,
+        "discount": 0
+      },
+      {
+        "item_id": "IT-038",
+        "seller_id": "SL-2",
+        "category": "kitchen",
+        "is_bulky": false,
+        "weight_grams": 9000,
+        "unit_price": 120000,
+        "quantity": 1,
+        "discount": 0
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1021",
+    "created_at": "2026-03-14T14:20:00+03:30",
+    "destination_city": "تهران",
+    "city_tier": "other",
+    "membership": "regular",
+    "payment_method": "online",
+    "items": [
+      {
+        "item_id": "IT-039",
+        "seller_id": "SL-1",
+        "category": "books",
+        "is_bulky": false,
+        "weight_grams": 700,
+        "unit_price": 140000,
+        "quantity": 1,
+        "discount": 0
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1023",
+    "created_at": "2026-03-14T23:40:00+03:30",
+    "destination_city": "قم",
+    "city_tier": "provincial_capital",
+    "membership": "plus",
+    "payment_method": "cash_on_delivery",
+    "items": [
+      {
+        "item_id": "IT-041",
+        "seller_id": "SL-1",
+        "category": "electronics",
+        "is_bulky": false,
+        "weight_grams": 2400,
+        "unit_price": 700000,
+        "quantity": 1,
+        "discount": 250000
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1024",
+    "created_at": "2026-03-14T23:40:00+03:30",
+    "destination_city": "خرم‌آباد",
+    "city_tier": "other",
+    "membership": "plus",
+    "payment_method": "cash_on_delivery",
+    "items": [
+      {
+        "item_id": "IT-042",
+        "seller_id": "SL-5",
+        "category": "appliance",
+        "is_bulky": true,
+        "weight_grams": 52000,
+        "unit_price": 900000,
+        "quantity": 1,
+        "discount": 0
+      },
+      {
+        "item_id": "IT-043",
+        "seller_id": "SL-2",
+        "category": "books",
+        "is_bulky": false,
+        "weight_grams": 2200,
+        "unit_price": 60000,
+        "quantity": 4,
+        "discount": 0
+      }
+    ]
+  }
+]
