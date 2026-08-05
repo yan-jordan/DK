@@ -68,10 +68,10 @@
     "shipments": [
       {
         "seller_id": "SL-2",
-        "shipping_fee": 35000
+        "shipping_fee": 50000
       }
     ],
-    "total_shipping_fee": 35000
+    "total_shipping_fee": 50000
   },
   {
     "order_id": "ORD-1006",
@@ -88,10 +88,10 @@
     "shipments": [
       {
         "seller_id": "SL-3",
-        "shipping_fee": 35000
+        "shipping_fee": 45000
       }
     ],
-    "total_shipping_fee": 35000
+    "total_shipping_fee": 45000
   },
   {
     "order_id": "ORD-1007",
