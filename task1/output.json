@@ -1,0 +1,324 @@
+[
+  {
+    "order_id": "ORD-1001",
+    "shipments": [
+      {
+        "seller_id": "SL-1",
+        "shipping_fee": 25000
+      }
+    ],
+    "total_shipping_fee": 25000
+  },
+  {
+    "order_id": "ORD-1002",
+    "shipments": [
+      {
+        "seller_id": "SL-1",
+        "shipping_fee": 35000
+      },
+      {
+        "seller_id": "SL-2",
+        "shipping_fee": 35000
+      }
+    ],
+    "total_shipping_fee": 70000
+  },
+  {
+    "order_id": "ORD-1027",
+    "shipments": [
+      {
+        "seller_id": "SL-4",
+        "shipping_fee": 35000
+      }
+    ],
+    "total_shipping_fee": 35000
+  },
+  {
+    "order_id": "ORD-1003",
+    "shipments": [
+      {
+        "seller_id": "SL-1",
+        "shipping_fee": 30000
+      }
+    ],
+    "total_shipping_fee": 30000
+  },
+  {
+    "order_id": "ORD-1004",
+    "shipments": [
+      {
+        "seller_id": "SL-1",
+        "shipping_fee": 35000
+      }
+    ],
+    "total_shipping_fee": 35000
+  },
+  {
+    "order_id": "ORD-1025",
+    "shipments": [
+      {
+        "seller_id": "SL-1",
+        "shipping_fee": 25000
+      }
+    ],
+    "total_shipping_fee": 25000
+  },
+  {
+    "order_id": "ORD-1005",
+    "shipments": [
+      {
+        "seller_id": "SL-2",
+        "shipping_fee": 35000
+      }
+    ],
+    "total_shipping_fee": 35000
+  },
+  {
+    "order_id": "ORD-1006",
+    "shipments": [
+      {
+        "seller_id": "SL-1",
+        "shipping_fee": 25000
+      }
+    ],
+    "total_shipping_fee": 25000
+  },
+  {
+    "order_id": "ORD-1028",
+    "shipments": [
+      {
+        "seller_id": "SL-3",
+        "shipping_fee": 35000
+      }
+    ],
+    "total_shipping_fee": 35000
+  },
+  {
+    "order_id": "ORD-1007",
+    "shipments": [
+      {
+        "seller_id": "SL-1",
+        "shipping_fee": 0
+      },
+      {
+        "seller_id": "SL-2",
+        "shipping_fee": 0
+      }
+    ],
+    "total_shipping_fee": 0
+  },
+  {
+    "order_id": "ORD-1008",
+    "shipments": [
+      {
+        "seller_id": "SL-5",
+        "shipping_fee": 0
+      }
+    ],
+    "total_shipping_fee": 0
+  },
+  {
+    "order_id": "ORD-1009",
+    "shipments": [
+      {
+        "seller_id": "SL-5",
+        "shipping_fee": 0
+      }
+    ],
+    "total_shipping_fee": 0
+  },
+  {
+    "order_id": "ORD-1010",
+    "shipments": [
+      {
+        "seller_id": "SL-5",
+        "shipping_fee": 150000
+      }
+    ],
+    "total_shipping_fee": 150000
+  },
+  {
+    "order_id": "ORD-1020",
+    "shipments": [
+      {
+        "seller_id": "SL-5",
+        "shipping_fee": 0
+      }
+    ],
+    "total_shipping_fee": 0
+  },
+  {
+    "order_id": "ORD-1026",
+    "shipments": [
+      {
+        "seller_id": "SL-1",
+        "shipping_fee": 0
+      },
+      {
+        "seller_id": "SL-2",
+        "shipping_fee": 0
+      },
+      {
+        "seller_id": "SL-5",
+        "shipping_fee": 0
+      }
+    ],
+    "total_shipping_fee": 0
+  },
+  {
+    "order_id": "ORD-1011",
+    "shipments": [
+      {
+        "seller_id": "SL-1",
+        "shipping_fee": 27500
+      }
+    ],
+    "total_shipping_fee": 27500
+  },
+  {
+    "order_id": "ORD-1012",
+    "shipments": [
+      {
+        "seller_id": "SL-1",
+        "shipping_fee": 25000
+      }
+    ],
+    "total_shipping_fee": 25000
+  },
+  {
+    "order_id": "ORD-1013",
+    "shipments": [
+      {
+        "seller_id": "SL-1",
+        "shipping_fee": 27500
+      }
+    ],
+    "total_shipping_fee": 27500
+  },
+  {
+    "order_id": "ORD-1014",
+    "shipments": [
+      {
+        "seller_id": "SL-1",
+        "shipping_fee": 0
+      }
+    ],
+    "total_shipping_fee": 0
+  },
+  {
+    "order_id": "ORD-1015",
+    "shipments": [
+      {
+        "seller_id": "SL-1",
+        "shipping_fee": 0
+      }
+    ],
+    "total_shipping_fee": 0
+  },
+  {
+    "order_id": "ORD-1016",
+    "shipments": [
+      {
+        "seller_id": "SL-1",
+        "shipping_fee": 45000
+      },
+      {
+        "seller_id": "SL-2",
+        "shipping_fee": 45000
+      },
+      {
+        "seller_id": "SL-3",
+        "shipping_fee": 45000
+      }
+    ],
+    "total_shipping_fee": 135000
+  },
+  {
+    "order_id": "ORD-1017",
+    "shipments": [
+      {
+        "seller_id": "SL-1",
+        "shipping_fee": 75000
+      },
+      {
+        "seller_id": "SL-2",
+        "shipping_fee": 75000
+      },
+      {
+        "seller_id": "SL-3",
+        "shipping_fee": 75000
+      },
+      {
+        "seller_id": "SL-4",
+        "shipping_fee": 75000
+      },
+      {
+        "seller_id": "SL-6",
+        "shipping_fee": 75000
+      }
+    ],
+    "total_shipping_fee": 200000
+  },
+  {
+    "order_id": "ORD-1018",
+    "shipments": [
+      {
+        "seller_id": "SL-1",
+        "shipping_fee": 143000
+      },
+      {
+        "seller_id": "SL-2",
+        "shipping_fee": 137500
+      }
+    ],
+    "total_shipping_fee": 200000
+  },
+  {
+    "order_id": "ORD-1019",
+    "shipments": [
+      {
+        "seller_id": "SL-1",
+        "shipping_fee": 145000
+      },
+      {
+        "seller_id": "SL-2",
+        "shipping_fee": 140000
+      }
+    ],
+    "total_shipping_fee": 200000
+  },
+  {
+    "order_id": "ORD-1021",
+    "shipments": [
+      {
+        "seller_id": "SL-1",
+        "shipping_fee": 50000
+      }
+    ],
+    "total_shipping_fee": 50000
+  },
+  {
+    "order_id": "ORD-1023",
+    "shipments": [
+      {
+        "seller_id": "SL-1",
+        "shipping_fee": 0
+      }
+    ],
+    "total_shipping_fee": 0
+  },
+  {
+    "order_id": "ORD-1024",
+    "shipments": [
+      {
+        "seller_id": "SL-5",
+        "shipping_fee": 0
+      },
+      {
+        "seller_id": "SL-2",
+        "shipping_fee": 0
+      }
+    ],
+    "total_shipping_fee": 0
+  }
+]
