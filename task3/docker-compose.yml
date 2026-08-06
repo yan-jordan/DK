@@ -1,0 +1,38 @@
+services:
+  api:
+    build: .
+    image: imdb-api:latest
+    ports:
+      - "8000:8000"
+    environment:
+      # Number of uvicorn workers. The index is read-only and memory-mapped,
+      # so workers share the same physical pages via the page cache.
+      WORKERS: "4"
+      # Pinned so the "is alive" cutoff -- and therefore the endpoint-1 total
+      # reported in the README -- is reproducible across runs.
+      IMDB_ALIVE_REFERENCE_YEAR: "2026"
+      IMDB_ALIVE_MAX_AGE: "100"
+      IMDB_ALIVE_REQUIRE_BIRTH_YEAR: "1"
+      IMDB_ACTOR_CATEGORIES: "actor,actress"
+      # More RAM for the build means less spilling and a faster build. Keep it
+      # comfortably below the memory Docker Desktop gives the VM.
+      IMDB_BUILD_MEMORY_LIMIT: "4GB"
+      # Must be explicit -- DuckDB's free-space probe is unreliable on Docker
+      # volumes and reports absurd values, which makes every spill fail.
+      IMDB_BUILD_MAX_TEMP_SIZE: "40GiB"
+      # Set to 1 to force a rebuild on the next start.
+      IMDB_REBUILD: "0"
+    volumes:
+      # Named volume so the download and the built index survive
+      # `docker compose down`. Use `down -v` to wipe them.
+      - imdb-data:/data
+      # Already have some of the dumps? Put them in ./data/raw and uncomment.
+      # The downloader skips any file that is already present.
+      # - ./data/raw:/data/raw
+    shm_size: "512m"
+    # Deliberately NOT `unless-stopped`: if the build fails, an auto-restarting
+    # container hides the error behind an infinite retry loop.
+    restart: "no"
+
+volumes:
+  imdb-data:
