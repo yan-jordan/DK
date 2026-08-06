@@ -1,0 +1,27 @@
+{
+    "index_version": 3,
+    "built_at": "2026-08-06T00:48:53Z",
+    "build_seconds": 189.7,
+    "id_width": 16,
+    "alive_criterion": {
+        "reference_year": 2026,
+        "max_age": 100,
+        "require_birth_year": true
+    },
+    "actor_categories": [
+        "actor",
+        "actress"
+    ],
+    "stats": {
+        "n_names": 15548570,
+        "n_titles": 12696106,
+        "n_suspicious_start_year": 0,
+        "ep1_total": 230517,
+        "ep1_distinct_people": 43359,
+        "ep1_solo_pairs_before_alive": 1135374,
+        "ep1_loose_definition_total": 460180,
+        "n_postings": 40316878,
+        "n_people_with_credits": 3730500,
+        "max_credits_for_one_person": 10973
+    }
+}
