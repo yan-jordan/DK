@@ -1,0 +1,28 @@
+index says: {
+  "n_names": 15548570,
+  "n_titles": 12696106,
+  "n_suspicious_start_year": 0,
+  "ep1_total": 230517,
+  "ep1_distinct_people": 43359,
+  "ep1_solo_pairs_before_alive": 1135374,
+  "ep1_loose_definition_total": 460180,
+  "n_postings": 40316878,
+  "n_people_with_credits": 3730500,
+  "max_credits_for_one_person": 10973
+}
+independent recount: {
+  "n_names": 15548570,
+  "n_alive": 427371,
+  "n_titles": 12696106,
+  "solo_pairs_before_alive_filter": 1135486,
+  "strict_total": 230517,
+  "loose_total": 441260
+}
+[OK ] ep1_total: index=230,517 recount=230,517
+[OK ] n_names: index=15,548,570 recount=15,548,570
+[OK ] n_titles: index=12,696,106 recount=12,696,106
+[FAIL] ep1_solo_pairs_before_alive: index=1,135,374 recount=1,135,486
+[OK ] api ep1 total: 230,517
+
+spot-checking endpoint 2 on 20 pairs...
+[OK ] endpoint 2: 20 pairs re-derived from raw data and matched

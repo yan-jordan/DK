@@ -1,0 +1,59 @@
+[bench] profile=costars
+  building co-star pair pool (one full pass over principals)...
+[bench] profile=typical
+[bench] profile=mixed
+[bench] profile=heavy
+[
+  {
+    "profile": "costars",
+    "requests": 1961,
+    "p50_ms": 1.417,
+    "p90_ms": 3.814,
+    "p95_ms": 5.858,
+    "p99_ms": 12.486,
+    "max_ms": 35.211,
+    "mean_ms": 2.088,
+    "nonempty_results": 1961,
+    "measures_real_intersections": true,
+    "mean_results_when_nonempty": 293.7
+  },
+  {
+    "profile": "typical",
+    "requests": 2000,
+    "p50_ms": 0.626,
+    "p90_ms": 1.11,
+    "p95_ms": 1.353,
+    "p99_ms": 1.907,
+    "max_ms": 12.246,
+    "mean_ms": 0.743,
+    "nonempty_results": 0,
+    "measures_real_intersections": false,
+    "mean_results_when_nonempty": 0
+  },
+  {
+    "profile": "mixed",
+    "requests": 2000,
+    "p50_ms": 0.678,
+    "p90_ms": 1.076,
+    "p95_ms": 1.319,
+    "p99_ms": 2.63,
+    "max_ms": 25.394,
+    "mean_ms": 0.823,
+    "nonempty_results": 0,
+    "measures_real_intersections": false,
+    "mean_results_when_nonempty": 0
+  },
+  {
+    "profile": "heavy",
+    "requests": 2000,
+    "p50_ms": 0.722,
+    "p90_ms": 1.028,
+    "p95_ms": 1.239,
+    "p99_ms": 1.901,
+    "max_ms": 6.604,
+    "mean_ms": 0.782,
+    "nonempty_results": 25,
+    "measures_real_intersections": false,
+    "mean_results_when_nonempty": 258.0
+  }
+]
